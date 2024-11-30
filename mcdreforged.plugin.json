@@ -1,0 +1,16 @@
+{
+	"id": "death_back",
+	"version": "0.0.1",
+	"name": "DeathBack",
+	"description": {
+		"en_us": "Go back to last died place quickly.",
+		"zh_cn": "快速返回上次死亡的地点。"
+	},
+	"dependencies": {
+		"mcdreforged": ">=2.1.0",
+		"mg_events": ">=0.0.1",
+		"minecraft_data_api": ">=1.4"
+	},
+	"author": "Mooling0602",
+    "link": "https://github.com/Mooling0602/DeathBack-MCDR"
+}
