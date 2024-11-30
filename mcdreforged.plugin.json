@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"name": "DeathBack",
 	"description": {
-		"en_us": "Go back to last died place quickly.",
-		"zh_cn": "快速返回上次死亡的地点。"
+		"en_us": "Teleport you back to the last place you died quickly.",
+		"zh_cn": "快速返回上次你死亡的地点。"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.1.0",
