@@ -1,6 +1,6 @@
 {
 	"id": "death_back",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"name": "DeathBack",
 	"description": {
 		"en_us": "Teleport you back to the last place you died quickly.",
@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.1.0",
-		"mg_events": ">=0.0.1",
+		"mg_events": ">=0.2.1",
 		"minecraft_data_api": ">=1.4"
 	},
 	"author": "Mooling0602",
