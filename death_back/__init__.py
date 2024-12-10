@@ -41,6 +41,7 @@ def tp_back_player(src: CommandSource):
     global position_data
     player = src.player
     api_inject = f"{psi.get_data_folder()}/api.json"
+    injected_plg = {}
     if os.path.exists(api_inject):
         try:
             with open(api_inject, "r", encoding="utf-8") as f:
@@ -50,7 +51,7 @@ def tp_back_player(src: CommandSource):
             with open(api_inject, "r", encoding="gbk") as f:
                 contents = f.read()
             injected_plg = json.loads(contents)
-    if not injected_plg["api"]["enabled"] or injected_plg["api"]["register"] is None:
+    if not injected_plg["api"]["enabled"] or injected_plg["api"]["register"] is None or injected_plg is None:
         try:
             player_data = position_data[player]
             pos = player_data['position']
