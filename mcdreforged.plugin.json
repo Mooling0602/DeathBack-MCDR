@@ -1,6 +1,6 @@
 {
 	"id": "death_back",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"name": "DeathBack",
 	"description": {
 		"en_us": "Teleport you back to the last place you died quickly.",
